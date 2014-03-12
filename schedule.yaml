@@ -12,9 +12,9 @@ match_sets:
       end_time: 2014-04-27 15:00:00
 matches:
   # Match schedule to appear here in this format:
-  #  0:
-  #      arena_0: [ABC, SRZ, QEH, PSC]
-  #      arena_1: [DFE, BDJ, LPQ, MRH]
-  #  1:
-  #      arena_0: [PNY, BCC, PSA, PSC]
-  #      arena_1: [DFE, BDJ, LPQ, MRH]
+  0:
+    A: [ABC, SRZ, QEH, PSC]
+    B: [DFE, BDJ, LPQ, MRH]
+  1:
+    A: [PNY, BCC, PSA, PSC]
+    B: [DFE, BDJ, LPQ, MRH]
