@@ -1,0 +1,27 @@
+arena_id: B
+match_number: 92
+teams:
+  CCR:
+    robot_moved: true
+    slot_bottoms: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 1, 7: 0}
+    upright_tokens: 2
+    zone: 2
+    zone_tokens: {0: 1, 1: 0, 2: 0, 3: 0}
+  CLY:
+    robot_moved: true
+    slot_bottoms: {0: 0, 1: 0, 2: 1, 3: 0, 4: 1, 5: 0, 6: 0, 7: 0}
+    upright_tokens: 4
+    zone: 1
+    zone_tokens: {0: 0, 1: 0, 2: 0, 3: 1}
+  HRS:
+    robot_moved: true
+    slot_bottoms: {0: 0, 1: 1, 2: 0, 3: 1, 4: 0, 5: 1, 6: 0, 7: 1}
+    upright_tokens: 1
+    zone: 3
+    zone_tokens: {0: 0, 1: 0, 2: 0, 3: 0}
+  NHS:
+    robot_moved: true
+    slot_bottoms: {0: 1, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
+    upright_tokens: 4
+    zone: 4
+    zone_tokens: {0: 2, 1: 0, 2: 0, 3: 0}

@@ -1,0 +1,27 @@
+arena_id: B
+match_number: 48
+teams:
+  KES:
+    robot_moved: true
+    slot_bottoms: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
+    upright_tokens: 2
+    zone: 3
+    zone_tokens: {0: 0, 1: 0, 2: 0, 3: 0}
+  RGS:
+    robot_moved: true
+    slot_bottoms: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
+    upright_tokens: 1
+    zone: 2
+    zone_tokens: {0: 0, 1: 0, 2: 3, 3: 0}
+  SGS:
+    robot_moved: true
+    slot_bottoms: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0}
+    upright_tokens: 4
+    zone: 4
+    zone_tokens: {0: 0, 1: 0, 2: 0, 3: 0}
+  STA:
+    robot_moved: true
+    slot_bottoms: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0}
+    upright_tokens: 1
+    zone: 1
+    zone_tokens: {0: 0, 1: 0, 2: 0, 3: 0}
