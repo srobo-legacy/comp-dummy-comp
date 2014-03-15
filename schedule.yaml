@@ -26,15 +26,15 @@ matches:
     B: [TBG, EMM, SGS, GYG]
   3:
     A: [MAI2, HSO, KDE, CCR]
-    B: [SCC, LSS, HZW, MAI2]
+    B: [SCC, LSS, HZW, MAI]
   4:
     A: [BRN, RED, NHS, JMS]
     B: [KHS, BPV, DSF, HSO]
   5:
-    A: [BGS, HRS, RGS, GRD]
+    A: [BGS, HRS, BPV, GRD]
     B: [RGS, CRB, BRN, TTN]
   6:
-    A: [MEA, TTN, LSS, TBG]
+    A: [MEA, TTN, GRD, TBG]
     B: [EMM, CCR, LSS, CLF]
   7:
     A: [CGS, KHS, CLF, BRN]
@@ -44,7 +44,7 @@ matches:
     B: [ICE, CGS, SCC, KES]
   9:
     A: [TWG, SEN, LFG, PSC]
-    B: [SGS, TWG, GYG, RUN]
+    B: [SGS, BRK, GYG, RUN]
   10:
     A: [SEN, JMS, LSS, RGS]
     B: [SCC, DSF, HRS, KES]
@@ -68,7 +68,7 @@ matches:
     B: [TWG, SEN, KHS, PAG]
   17:
     A: [SWI, DSF, STA, ICE]
-    B: [STA, CPR, JMS, SGS]
+    B: [TTN, CPR, JMS, SGS]
   18:
     A: [GRD, SCC, RUN, MAI2]
     B: [QEH, HZW, BRN, HYP]
@@ -77,10 +77,10 @@ matches:
     B: [HRS, BRN, MAI2, DSF]
   20:
     A: [BGS, GRD, CPR, BRN]
-    B: [SWI, GRD, HZW, BPV]
+    B: [SWI, SWI, HZW, BPV]
   21:
     A: [BPV, QEH, PAS, NHS]
-    B: [QEH, HYP, GRD, MAI]
+    B: [BGS, HYP, GRD, MAI]
   22:
     A: [TWG, BWS, GYG, DSF]
     B: [STA, HRS, KDE, ICE]
