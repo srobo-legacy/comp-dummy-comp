@@ -13,7 +13,7 @@ teams:
     upright_tokens: 3
     zone: 3
     zone_tokens: {0: 1, 1: 0, 2: 0, 3: 0}
-  NHS:
+  MAI2:
     robot_moved: true
     slot_bottoms: {0: 1, 1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 0}
     upright_tokens: 2

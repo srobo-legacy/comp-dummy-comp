@@ -1,7 +1,7 @@
 arena_id: B
 match_number: 161
 teams:
-  BAY:
+  HRS:
     robot_moved: true
     slot_bottoms: {0: 0, 1: 0, 2: 1, 3: 0, 4: 0, 5: 1, 6: 0, 7: 1}
     upright_tokens: 3
