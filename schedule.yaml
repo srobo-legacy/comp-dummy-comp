@@ -19,6 +19,7 @@ match_periods:
   knockout:
     - start_time: 2014-04-27 15:00:00
       end_time: 2014-04-27 17:00:00
+
 matches:
   0:
     A: [CLY, TTN, SCC, DSF]
