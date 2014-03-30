@@ -22,8 +22,8 @@ match_periods:
 
 matches:
   0:
-    A: [CLY, TTN, SCC, DSF]
-    B: [GRS, QMC, GRD, BRK]
+    A: [CLY, TTN]
+    B: [GRS, QMC]
   1:
     A: [WYC, QMS, LSS, EMM]
     B: [BPV, BDF, NHS, MEA]
