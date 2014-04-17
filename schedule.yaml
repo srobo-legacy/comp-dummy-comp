@@ -32,8 +32,8 @@ knockout:
 
 matches:
   0:
-    A: [CLY, TTN]
-    B: [GRS, QMC]
+    A: [null, CLY, TTN, null]
+    B: [GRS, QMC, null, null]
   1:
     A: [WYC, QMS, LSS, EMM]
     B: [BPV, BDF, NHS, MEA]
