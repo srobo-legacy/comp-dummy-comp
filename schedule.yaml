@@ -30,6 +30,13 @@ knockout:
   # Extra delay before the final (for build-up and rotating)
   final_delay: 300              # +5 minutes
 
+  # Options for putting last few rounds in one arena
+  single_arena:
+    # Number of final rounds to put in a single arena
+    rounds: 3                   # Semis and finals
+    # The arena to put them in
+    arenas: ["A"]
+
 matches:
   0:
     A: [null, CLY, TTN, null]
