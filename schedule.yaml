@@ -33,7 +33,7 @@ knockout:
   # Options for putting last few rounds in one arena
   single_arena:
     # Number of final rounds to put in a single arena
-    rounds: 3                   # Semis and finals
+    rounds: 3                   # Quarters, Semis and finals
     # The arena to put them in
     arenas: ["A"]
 
