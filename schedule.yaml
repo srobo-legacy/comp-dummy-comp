@@ -8,7 +8,7 @@ match_periods:
     - start_time: 2014-04-26 13:00:00 +1
       end_time: 2014-04-26 17:30:00 +1
       max_end_time: 2014-04-26 17:40:00 +1
-      description: Sunday, 26 April 2014, afternoon
+      description: Saturday, 26 April 2014, afternoon
 
     - start_time: 2014-04-27 09:30:00 +1
       end_time: 2014-04-27 12:15:00 +1
