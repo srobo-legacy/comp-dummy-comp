@@ -20,8 +20,8 @@ match_periods:
       description: Sunday, 27 April 2014, afternoon
 
   knockout:
-    - start_time: 2014-04-27 15:00:00 +1
-      end_time: 2014-04-27 17:00:00 +1
+    - start_time: 2014-04-27 15:30:00 +1
+      end_time: 2014-04-27 17:30:00 +1
       description: The Knockouts, Sunday, 27 April 2014, afternoon
 
 knockout:
