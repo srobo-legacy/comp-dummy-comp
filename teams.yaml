@@ -39,6 +39,9 @@ teams:
   CRB:
     name: "Cranbrook School"
 
+  CRB2:
+    name: "Cranbrook School (team 2)"
+
   DSF:
     name: "Dereham Sixth Form"
 
@@ -53,6 +56,9 @@ teams:
 
   GYG:
     name: "Guernsey Grammar School"
+
+  HAM:
+    name: "Hampshire team"
 
   HRS:
     name: "Hills Road Sixth Form College"
