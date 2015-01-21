@@ -1,11 +1,19 @@
 # List of the arenas
 arenas:
-  - "A"
-  - "B"
+  A:
+    display_name: A
+    colour: '#ff0000'
+  B:
+    display_name: B
+    colour: '#00ff00'
 
-# Colours for the corners
-corner_colours:
-  0: "#00ff00"
-  1: "#ff6600"
-  2: "#ff00ff"
-  3: "#ffff00"
+# List of the corners
+corners:
+  0:
+    colour: '#00ff00'
+  1:
+    colour: '#ff6600'
+  2:
+    colour: '#ff00ff'
+  3:
+    colour: '#ffff00'
