@@ -1,5 +1,12 @@
 # The overall schedule of the competition
-match_period_length_seconds: 300
+
+# Lengths of matches in seconds
+match_period_lengths:
+  pre: 90
+  match: 180
+  post: 30
+  total: 300
+
 delays:
   - delay: 15
     time: 2014-04-26 13:15:00 +1
