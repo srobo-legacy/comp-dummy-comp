@@ -37,6 +37,9 @@ knockout:
   # Extra delay before the final (for build-up and rotating)
   final_delay: 300              # +5 minutes
 
+  # Number of teams taking part
+  arity: 55
+
   # Options for putting last few rounds in one arena
   single_arena:
     # Number of final rounds to put in a single arena
