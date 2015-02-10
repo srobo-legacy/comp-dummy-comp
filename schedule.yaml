@@ -7,6 +7,9 @@ match_period_lengths:
   post: 30
   total: 300
 
+# Timezone in which the competition runs
+timezone: Europe/London
+
 delays:
   - delay: 15
     time: 2014-04-26 13:15:00 +1
