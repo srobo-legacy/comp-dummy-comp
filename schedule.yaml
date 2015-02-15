@@ -1,7 +1,7 @@
 # The overall schedule of the competition
 
 # Lengths of matches in seconds
-match_period_lengths:
+match_slot_lengths:
   pre: 90
   match: 180
   post: 30
