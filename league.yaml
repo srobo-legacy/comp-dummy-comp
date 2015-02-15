@@ -1,0 +1,601 @@
+league:
+  0:
+    A: [null, CLY, TTN, null]
+    B: [GRS, QMC, null, null]
+  1:
+    A: [WYC, QMS, LSS, EMM]
+    B: [BPV, BDF, NHS, MEA]
+  2:
+    A: [ICE, MFG, SWI, BRN]
+    B: [TBG, EMM, SGS, GYG]
+  3:
+    A: [MAI2, HSO, KDE, CCR]
+    B: [SCC, LSS, HZW, MAI]
+  4:
+    A: [BRN, RED, NHS, JMS]
+    B: [KHS, BPV, DSF, HSO]
+  5:
+    A: [BGS, HRS, BPV, GRD]
+    B: [RGS, CRB, BRN, TTN]
+  6:
+    A: [MEA, TTN, GRD, TBG]
+    B: [EMM, CCR, LSS, CLF]
+  7:
+    A: [CGS, KHS, CLF, BRN]
+    B: [MFG, RGS, RED, SWI]
+  8:
+    A: [GYG, JMS, TWG, KDE]
+    B: [ICE, CGS, SCC, KES]
+  9:
+    A: [TWG, SEN, LFG, PSC]
+    B: [SGS, BRK, GYG, RUN]
+  10:
+    A: [SEN, JMS, LSS, RGS]
+    B: [SCC, DSF, HRS, KES]
+  11:
+    A: [CRB, KHS, TBG, SWI]
+    B: [WYC, BAY, LSS, HYP]
+  12:
+    A: [SGS, LFG, GRS, MFG]
+    B: [HZW, SCC, BDF, BPV]
+  13:
+    A: [CGS, NHS, SCC, BRN]
+    B: [PAG, CPR, HYP, SGS]
+  14:
+    A: [MFG, MAI2, SEN, GRS]
+    B: [CRB, BPV, DSF, TBG]
+  15:
+    A: [KES, TTN, JMS, GYG]
+    B: [NHS, SWI, CLF, SEN]
+  16:
+    A: [QEH, HRS, MAI2, SCC]
+    B: [TWG, SEN, KHS, PAG]
+  17:
+    A: [SWI, DSF, STA, ICE]
+    B: [TTN, CPR, JMS, SGS]
+  18:
+    A: [GRD, SCC, RUN, MAI2]
+    B: [QEH, HZW, BRN, HYP]
+  19:
+    A: [HSO, LFG, GRD, BAY]
+    B: [HRS, BRN, MAI2, DSF]
+  20:
+    A: [BGS, GRD, CPR, BRN]
+    B: [SWI, BRK, HZW, BPV]
+  21:
+    A: [BPV, QEH, PAS, NHS]
+    B: [BGS, HYP, GRD, MAI]
+  22:
+    A: [TWG, BWS, GYG, DSF]
+    B: [STA, HRS, KDE, ICE]
+  23:
+    A: [KES, TTN, CPR, PAS]
+    B: [KHS, BRN, BGS, RWD]
+  24:
+    A: [NHS, MEA, BWS, CCR]
+    B: [QEH, LFG, KHS, MAI2]
+  25:
+    A: [TBG, SGS, BRK, RWD]
+    B: [TTN, CRB, LFG, CLY]
+  26:
+    A: [LFG, CLY, PAS, QEH]
+    B: [GRD, RUN, NHS, HSO]
+  27:
+    A: [GRD, HRS, TBG, PAG]
+    B: [SEN, HYP, CLF, CLY]
+  28:
+    A: [CGS, MAI, KES, BAY]
+    B: [RED, BDF, BRK, CLY]
+  29:
+    A: [MFG, QMC, HYP, RWD]
+    B: [HSO, RGS, KDE, BDF]
+  30:
+    A: [PAG, RGS, BPV, BRK]
+    B: [CLY, SEN, SCC, EMM]
+  31:
+    A: [QEH, TTN, CLY, RWD]
+    B: [BDF, HSO, HRS, ICE]
+  32:
+    A: [SCC, MFG, SWI, LFG]
+    B: [KHS, TWG, MAI, SGS]
+  33:
+    A: [KDE, SEN, BRN, MAI2]
+    B: [PAG, GRS, KHS, LFG]
+  34:
+    A: [CCR, SGS, QEH, CLY]
+    B: [CGS, CLF, KHS, HRS]
+  35:
+    A: [KES, PSC, KDE, HZW]
+    B: [CRB, WYC, RUN, BGS]
+  36:
+    A: [LFG, WYC, CGS, STA]
+    B: [TWG, CLY, HRS, GYG]
+  37:
+    A: [PAG, CGS, GYG, LSS]
+    B: [SWI, EMM, CRB, PSC]
+  38:
+    A: [CLF, BWS, GRD, PSC]
+    B: [HRS, KES, BDF, TBG]
+  39:
+    A: [CGS, MAI2, BRK, BAY]
+    B: [RWD, PSC, RGS, TBG]
+  40:
+    A: [HSO, LSS, SCC, DSF]
+    B: [RED, SWI, RUN, PSC]
+  41:
+    A: [GRD, BRK, QMS, BAY]
+    B: [MFG, SEN, PSC, BPV]
+  42:
+    A: [KHS, SEN, MFG, GYG]
+    B: [GRD, ICE, PSC, KDE]
+  43:
+    A: [RWD, RED, KHS, RUN]
+    B: [PAS, BDF, BRK, MAI]
+  44:
+    A: [PAG, SEN, SGS, QEH]
+    B: [MAI, QMS, BAY, KES]
+  45:
+    A: [LSS, MAI, PAS, KHS]
+    B: [SEN, MAI2, RUN, PSC]
+  46:
+    A: [WYC, BAY, NHS, BPV]
+    B: [BGS, MFG, SEN, LSS]
+  47:
+    A: [TBG, HZW, BPV, BRK]
+    B: [HSO, DSF, CGS, CCR]
+  48:
+    A: [BPV, MAI, WYC, BGS]
+    B: [STA, RGS, KES, SGS]
+  49:
+    A: [HZW, LSS, SGS, GRD]
+    B: [QEH, CLY, CLF, QMS]
+  50:
+    A: [QMS, HZW, BWS, ICE]
+    B: [CGS, HYP, LFG, MAI2]
+  51:
+    A: [RUN, KHS, CLY, NHS]
+    B: [KES, QMS, PAG, PSC]
+  52:
+    A: [CGS, SWI, LFG, EMM]
+    B: [CLY, GRD, HSO, TWG]
+  53:
+    A: [MAI, ICE, MAI2, TWG]
+    B: [CRB, HRS, QMS, GYG]
+  54:
+    A: [CCR, MEA, HYP, KHS]
+    B: [HRS, SEN, QMS, BAY]
+  55:
+    A: [MAI, STA, BRK, SEN]
+    B: [KDE, LSS, CLY, MFG]
+  56:
+    A: [RWD, HYP, CGS, MFG]
+    B: [HSO, CLY, WYC, RUN]
+  57:
+    A: [HRS, EMM, HZW, KDE]
+    B: [CPR, BWS, QMS, STA]
+  58:
+    A: [PSC, CPR, KDE, HSO]
+    B: [SWI, GRS, RED, EMM]
+  59:
+    A: [HYP, DSF, GRD, BRK]
+    B: [SCC, NHS, SGS, PAG]
+  60:
+    A: [BDF, DSF, GRS, SCC]
+    B: [BGS, ICE, PAG, EMM]
+  61:
+    A: [GYG, BRN, MEA, CLF]
+    B: [BDF, MFG, GRS, CLY]
+  62:
+    A: [SCC, PSC, JMS, BPV]
+    B: [LFG, MAI, BRK, HYP]
+  63:
+    A: [JMS, RWD, MAI, EMM]
+    B: [TBG, RED, SCC, TWG]
+  64:
+    A: [TBG, BRK, RUN, GRD]
+    B: [CLY, PSC, QEH, RWD]
+  65:
+    A: [CLF, KHS, WYC, KES]
+    B: [GRS, QEH, RUN, TTN]
+  66:
+    A: [PSC, SCC, STA, DSF]
+    B: [NHS, EMM, MAI2, GRS]
+  67:
+    A: [BRN, SWI, CPR, LSS]
+    B: [MEA, LFG, QMS, STA]
+  68:
+    A: [RWD, MAI2, BRK, HRS]
+    B: [CLY, MFG, NHS, TTN]
+  69:
+    A: [BPV, TTN, HZW, STA]
+    B: [CGS, LSS, RUN, KHS]
+  70:
+    A: [TTN, CLF, BAY, STA]
+    B: [KDE, CRB, SCC, QEH]
+  71:
+    A: [HRS, BAY, KES, HZW]
+    B: [SCC, BRN, LSS, CGS]
+  72:
+    A: [QMS, CPR, PSC, LFG]
+    B: [BPV, TWG, CLY, MAI]
+  73:
+    A: [GRD, MEA, DSF, ICE]
+    B: [KDE, PAS, CCR, HSO]
+  74:
+    A: [HZW, EMM, CGS, BWS]
+    B: [PSC, STA, QMS, BAY]
+  75:
+    A: [QEH, CRB, CPR, GYG]
+    B: [TTN, KDE, BAY, BRK]
+  76:
+    A: [BWS, DSF, TWG, MFG]
+    B: [HSO, QMC, PAS, HZW]
+  77:
+    A: [HYP, BGS, GRS, HZW]
+    B: [LFG, DSF, TWG, PAG]
+  78:
+    A: [BAY, BRK, KDE, JMS]
+    B: [GRS, CCR, STA, CPR]
+  79:
+    A: [CLY, DSF, CPR, QEH]
+    B: [PAS, JMS, GRS, GRD]
+  80:
+    A: [BRN, KES, PAG, HSO]
+    B: [QEH, MFG, STA, TTN]
+  81:
+    A: [NHS, TTN, PAG, BRN]
+    B: [EMM, CLF, CGS, SCC]
+  82:
+    A: [NHS, TTN, QMC, HYP]
+    B: [CLY, BGS, PAS, PSC]
+  83:
+    A: [NHS, BPV, GRS, RUN]
+    B: [QMC, RWD, TTN, WYC]
+  84:
+    A: [QMS, CLF, GYG, ICE]
+    B: [CPR, HRS, BRK, RED]
+  85:
+    A: [SWI, BGS, HYP, BDF]
+    B: [SCC, EMM, SEN, DSF]
+  86:
+    A: [PSC, SCC, HSO, CLY]
+    B: [QMS, BAY, MAI2, DSF]
+  87:
+    A: [TWG, SGS, PAS, BRK]
+    B: [LFG, KHS, BPV, HZW]
+  88:
+    A: [SEN, LSS, RUN, GYG]
+    B: [CLY, LFG, RGS, MEA]
+  89:
+    A: [QEH, GRS, GRD, DSF]
+    B: [RGS, WYC, SWI, NHS]
+  90:
+    A: [TWG, SWI, HZW, PAS]
+    B: [BRN, CPR, CLF, BWS]
+  91:
+    A: [WYC, CRB, KES, BDF]
+    B: [SEN, RGS, QEH, STA]
+  92:
+    A: [QEH, MAI2, PSC, TTN]
+    B: [CLY, CCR, HRS, NHS]
+  93:
+    A: [BRK, GRD, EMM, SEN]
+    B: [CLY, RWD, JMS, TBG]
+  94:
+    A: [RWD, WYC, SGS, HRS]
+    B: [TTN, RED, TBG, BPV]
+  95:
+    A: [MFG, JMS, GRS, BRN]
+    B: [BRK, CLF, QEH, KES]
+  96:
+    A: [PAS, QMS, SGS, SCC]
+    B: [HYP, RWD, PSC, RUN]
+  97:
+    A: [MAI2, RWD, BRN, ICE]
+    B: [CRB, CPR, KHS, SWI]
+  98:
+    A: [TBG, CLY, KHS, SEN]
+    B: [DSF, PAG, CLF, KDE]
+  99:
+    A: [SCC, HRS, SWI, KHS]
+    B: [HSO, GYG, BRN, RED]
+  100:
+    A: [EMM, RWD, QEH, KHS]
+    B: [STA, CLF, BGS, BPV]
+  101:
+    A: [PAS, PSC, QEH, NHS]
+    B: [CLF, JMS, BGS, KHS]
+  102:
+    A: [CRB, ICE, MAI2, KES]
+    B: [KDE, DSF, SCC, RGS]
+  103:
+    A: [EMM, ICE, QMS, CCR]
+    B: [LFG, HRS, TWG, PAG]
+  104:
+    A: [CPR, MAI, BAY, TTN]
+    B: [PAS, TBG, SGS, CGS]
+  105:
+    A: [RUN, EMM, GRS, SWI]
+    B: [BDF, CRB, MAI, MAI2]
+  106:
+    A: [RGS, HSO, SCC, PAG]
+    B: [GRS, SGS, TWG, RED]
+  107:
+    A: [BRN, NHS, CCR, TTN]
+    B: [MAI2, SEN, EMM, DSF]
+  108:
+    A: [RWD, RGS, MAI2, BAY]
+    B: [EMM, MAI, CCR, HYP]
+  109:
+    A: [RWD, PAS, CLF, SGS]
+    B: [PSC, BGS, PAG, SWI]
+  110:
+    A: [MEA, BWS, SWI, ICE]
+    B: [GYG, CLY, KES, KHS]
+  111:
+    A: [LFG, CRB, CGS, RWD]
+    B: [SWI, STA, ICE, KES]
+  112:
+    A: [SGS, BDF, HYP, BPV]
+    B: [SCC, WYC, BGS, RUN]
+  113:
+    A: [RGS, KES, CCR, GRS]
+    B: [CLY, BRN, MEA, MAI]
+  114:
+    A: [MAI2, DSF, JMS, KHS]
+    B: [CGS, CRB, WYC, PAS]
+  115:
+    A: [SEN, SGS, BRK, BDF]
+    B: [SCC, RGS, JMS, SWI]
+  116:
+    A: [GRS, BRN, PSC, RUN]
+    B: [CGS, EMM, HZW, SGS]
+  117:
+    A: [CCR, TBG, QEH, MAI2]
+    B: [CRB, BAY, MFG, PAS]
+  118:
+    A: [BRK, MAI2, STA, PSC]
+    B: [BAY, BWS, WYC, KES]
+  119:
+    A: [QMS, BGS, BRN, BPV]
+    B: [HZW, RED, SGS, CRB]
+  120:
+    A: [BGS, SEN, CPR, QEH]
+    B: [DSF, KDE, HZW, PSC]
+  121:
+    A: [TTN, TBG, RUN, NHS]
+    B: [HZW, RED, PSC, BRN]
+  122:
+    A: [CLY, BWS, HYP, GYG]
+    B: [BRK, TBG, QEH, MAI2]
+  123:
+    A: [RUN, ICE, JMS, PAS]
+    B: [WYC, TWG, DSF, MEA]
+  124:
+    A: [QMC, GYG, GRS, PSC]
+    B: [BRN, ICE, BRK, SCC]
+  125:
+    A: [PAS, SCC, LSS, CGS]
+    B: [WYC, BGS, BRK, MFG]
+  126:
+    A: [KHS, LSS, SGS, WYC]
+    B: [TTN, RED, MAI2, CGS]
+  127:
+    A: [KHS, LSS, CPR, RUN]
+    B: [BDF, ICE, LFG, CLY]
+  128:
+    A: [PAG, MEA, BPV, SEN]
+    B: [MFG, BWS, GYG, RUN]
+  129:
+    A: [SEN, CRB, KES, GYG]
+    B: [TBG, LSS, TWG, RWD]
+  130:
+    A: [STA, TWG, BPV, TBG]
+    B: [QMS, KDE, DSF, CPR]
+  131:
+    A: [BDF, PAS, STA, DSF]
+    B: [CLY, BRK, HZW, MEA]
+  132:
+    A: [SGS, GRD, QEH, TBG]
+    B: [NHS, BPV, KDE, SEN]
+  133:
+    A: [TTN, BWS, SGS, STA]
+    B: [MEA, BPV, KHS, CLF]
+  134:
+    A: [LSS, QMC, CLF, BPV]
+    B: [TWG, BAY, SWI, JMS]
+  135:
+    A: [SWI, CGS, GRD, MAI2]
+    B: [LFG, GYG, TWG, MAI]
+  136:
+    A: [WYC, HRS, CGS, MAI2]
+    B: [NHS, SEN, CPR, CCR]
+  137:
+    A: [RWD, LFG, EMM, KHS]
+    B: [LSS, SWI, BDF, BRK]
+  138:
+    A: [PSC, BWS, SWI, CLY]
+    B: [KHS, HZW, SCC, LFG]
+  139:
+    A: [HZW, HRS, CLY, BGS]
+    B: [NHS, LSS, BAY, KHS]
+  140:
+    A: [BGS, TWG, CLY, MAI2]
+    B: [SCC, LFG, RGS, RUN]
+  141:
+    A: [BGS, BAY, HYP, CGS]
+    B: [CLY, QMC, MAI2, BWS]
+  142:
+    A: [CLF, BAY, HZW, QMC]
+    B: [RGS, PAS, MAI2, TTN]
+  143:
+    A: [CCR, CRB, LFG, HZW]
+    B: [CLY, SWI, BRK, CLF]
+  144:
+    A: [HYP, JMS, LFG, KES]
+    B: [SWI, PAS, BDF, MAI]
+  145:
+    A: [GRD, RGS, BRN, BAY]
+    B: [HSO, RWD, SEN, CCR]
+  146:
+    A: [GYG, JMS, BRN, CLY]
+    B: [PSC, MFG, BRK, KDE]
+  147:
+    A: [JMS, RGS, STA, NHS]
+    B: [LSS, KES, KDE, DSF]
+  148:
+    A: [PAG, HYP, GYG, TWG]
+    B: [BRK, KDE, LFG, TBG]
+  149:
+    A: [BRK, HRS, CRB, PAS]
+    B: [GYG, LFG, WYC, MAI2]
+  150:
+    A: [CCR, BWS, MAI2, HSO]
+    B: [KDE, GYG, LFG, CLF]
+  151:
+    A: [BGS, BAY, CRB, QMS]
+    B: [WYC, HSO, RUN, SGS]
+  152:
+    A: [HSO, BRN, LSS, BDF]
+    B: [HYP, BPV, SGS, HRS]
+  153:
+    A: [HZW, EMM, QMS, QMC]
+    B: [GRD, GYG, HRS, GRS]
+  154:
+    A: [MAI, RGS, TBG, BRK]
+    B: [CPR, BRN, JMS, CGS]
+  155:
+    A: [BRN, EMM, LSS, RWD]
+    B: [CPR, GRS, HSO, SWI]
+  156:
+    A: [KES, JMS, SGS, RWD]
+    B: [HSO, CCR, SWI, STA]
+  157:
+    A: [PAG, EMM, HZW, MAI]
+    B: [HSO, LFG, BPV, HRS]
+  158:
+    A: [STA, CGS, PAG, TBG]
+    B: [BGS, WYC, LFG, BDF]
+  159:
+    A: [GRS, CGS, HYP, HSO]
+    B: [MEA, BWS, SCC, RED]
+  160:
+    A: [BAY, MFG, SEN, MAI]
+    B: [WYC, GYG, HSO, GRD]
+  161:
+    A: [SGS, BRK, BAY, BPV]
+    B: [TTN, LSS, HRS, MAI]
+  162:
+    A: [CGS, MAI, BGS, TBG]
+    B: [GRS, PAG, HRS, GYG]
+  163:
+    A: [KES, GRS, BDF, HSO]
+    B: [MEA, HRS, QMS, BPV]
+  164:
+    A: [DSF, BRN, SGS, SWI]
+    B: [MAI, HRS, KHS, HZW]
+  165:
+    A: [HRS, HYP, GYG, KHS]
+    B: [ICE, CPR, JMS, RWD]
+  166:
+    A: [TBG, JMS, KHS, LFG]
+    B: [CLY, GRD, BDF, BRK]
+  167:
+    A: [LSS, STA, TBG, WYC]
+    B: [MAI, NHS, PSC, TTN]
+  168:
+    A: [JMS, GRS, CCR, RUN]
+    B: [DSF, KDE, EMM, HRS]
+  169:
+    A: [QMC, SCC, MEA, RUN]
+    B: [ICE, LSS, MAI2, LFG]
+  170:
+    A: [BPV, PAS, NHS, TTN]
+    B: [CLF, RUN, LFG, QMC]
+  171:
+    A: [BGS, TTN, EMM, HSO]
+    B: [LSS, MAI2, PAG, DSF]
+  172:
+    A: [RED, MEA, SGS, TWG]
+    B: [BGS, BPV, HZW, PSC]
+  173:
+    A: [GRS, LFG, PAG, RED]
+    B: [BDF, QMS, QMC, QEH]
+  174:
+    A: [PAS, BRN, PSC, EMM]
+    B: [BDF, TTN, BPV, CLY]
+  175:
+    A: [KES, MAI2, GYG, BDF]
+    B: [LFG, QMC, CLF, SCC]
+  176:
+    A: [HYP, CLF, SGS, BDF]
+    B: [RGS, KHS, PSC, HRS]
+  177:
+    A: [PAS, DSF, KDE, RWD]
+    B: [HRS, GRD, KHS, WYC]
+  178:
+    A: [CPR, CLY, DSF, TWG]
+    B: [WYC, HYP, NHS, PAG]
+  179:
+    A: [NHS, MFG, QMS, PSC]
+    B: [MAI, BRK, CPR, TBG]
+  180:
+    A: [CGS, HYP, LSS, LFG]
+    B: [BGS, DSF, BRN, RED]
+  181:
+    A: [PAS, HRS, CCR, BGS]
+    B: [BAY, DSF, KHS, WYC]
+  182:
+    A: [SWI, PSC, HZW, MAI]
+    B: [QMC, BRK, RWD, BRN]
+  183:
+    A: [JMS, DSF, GRD, ICE]
+    B: [CGS, KHS, QMC, KDE]
+  184:
+    A: [HZW, BAY, RED, WYC]
+    B: [GYG, BWS, QMS, KHS]
+  185:
+    A: [SEN, BRK, RUN, SCC]
+    B: [SWI, WYC, GYG, BWS]
+  186:
+    A: [TTN, CGS, PAG, KHS]
+    B: [GRS, SCC, HRS, BWS]
+  187:
+    A: [TTN, QMC, DSF, KHS]
+    B: [KES, CLF, SWI, CLY]
+  188:
+    A: [CGS, BAY, BGS, QEH]
+    B: [CPR, CLF, QMC, GYG]
+  189:
+    A: [MFG, STA, MAI, KES]
+    B: [PSC, SCC, PAS, KDE]
+  190:
+    A: [KHS, BGS, CLF, GRD]
+    B: [JMS, BDF, CGS, GYG]
+  191:
+    A: [KDE, PSC, BPV, CLF]
+    B: [MFG, BRN, DSF, TWG]
+  192:
+    A: [KES, SEN, SCC, KHS]
+    B: [NHS, TWG, DSF, WYC]
+  193:
+    A: [BRK, BRN, RGS, KHS]
+    B: [CCR, PSC, SEN, BAY]
+  194:
+    A: [RED, MFG, CPR, TTN]
+    B: [MAI, DSF, LSS, TWG]
+  195:
+    A: [MAI2, SEN, RED, GYG]
+    B: [HZW, CCR, BAY, CGS]
+  196:
+    A: [RED, QEH, TBG, MEA]
+    B: [ICE, HZW, BDF, BRK]
+  197:
+    A: [QMS, RWD, CCR, MAI]
+    B: [TBG, GYG, WYC, MEA]
+  198:
+    A: [QMS, RED, PSC, CLY]
+    B: [MAI2, KDE, QMC, CLF]
+  199:
+    A: [HZW, SWI, ICE, TBG]
+    B: [PSC, MAI2, QEH, CPR]
