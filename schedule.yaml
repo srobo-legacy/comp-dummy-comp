@@ -35,6 +35,7 @@ match_periods:
       description: The Knockouts, Sunday, 27 April 2014, afternoon
 
 # Scheduled time for the finals tie-breaker, if any
+# This is an absolute value and ignores the delay values
 tiebreaker: 2014-04-27 17:50:00 +1
 
 knockout:
