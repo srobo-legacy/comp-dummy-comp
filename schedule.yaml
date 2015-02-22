@@ -34,6 +34,9 @@ match_periods:
       end_time: 2014-04-27 17:30:00 +1
       description: The Knockouts, Sunday, 27 April 2014, afternoon
 
+# Scheduled time for the finals tie-breaker, if any
+tiebreaker: 2014-04-27 17:50:00 +1
+
 knockout:
   # Time delay between rounds (in seconds)
   round_spacing: 300            # 5 minutes
