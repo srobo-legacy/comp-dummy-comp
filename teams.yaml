@@ -1,4 +1,4 @@
-# All the SR2014 teams
+# Based on the SR2014 teams
 teams:
   BAY:
     name: "Bay House School & Sixth Form"
@@ -39,9 +39,6 @@ teams:
   CRB:
     name: "Cranbrook School"
 
-  CRB2:
-    name: "Cranbrook School (team 2)"
-
   DSF:
     name: "Dereham Sixth Form"
 
@@ -56,9 +53,6 @@ teams:
 
   GYG:
     name: "Guernsey Grammar School"
-
-  HAM:
-    name: "Hampshire team"
 
   HRS:
     name: "Hills Road Sixth Form College"
@@ -97,7 +91,7 @@ teams:
     name: "Gymnasium Markt Indersdorf"
 
   MAI2:
-    name: "Gymnasium Markt Indersdorf"
+    name: "Gymnasium Markt Indersdorf (team 2)"
 
   MEA:
     name: "Merchants' Academy"
