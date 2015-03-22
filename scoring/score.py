@@ -1,4 +1,6 @@
 
+from __future__ import absolute_import
+
 from score_logic import score_team, tidy_slots, tidy_zones, validate_team
 
 class Scorer:
