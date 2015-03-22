@@ -1,0 +1,6 @@
+# fully qualified names of machines which have deployments which
+# support triggered updates
+deployments:
+#  - saffron.studentrobotics.org
+#  - compbox.studentrobotics.org
+  - f20-vm.local
