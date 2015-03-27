@@ -1,7 +1,8 @@
 
-from __future__ import absolute_import
+class InvalidScoresheetException(Exception):
+    pass
 
-from score_logic import score_team, tidy_slots, tidy_zones, validate_team
+MAX_FLAGS = 5
 
 class Scorer:
     def __init__(self, scoresheet):
@@ -9,40 +10,41 @@ class Scorer:
 
     def calculate_scores(self):
         scores = {}
-        for tla, score_data in self.isolated_scores.items():
-            scores[tla] = score_team(score_data)
+        for tla, data in self._scoresheet.items():
+            flags = data['flags']
+            self._check_num_flags(tla, flags)
+            scores[tla] = flags
         return scores
 
-    @property
-    def isolated_scores(self):
-        """
-        The input format of the score sheet contains information about
-        which team has how many tokens in a zone. We don't really care
-        about this level, and really want to know _who owns_ each zone.
-        Similarly, it's more useful have a list of which slots a team
-        owns, rather than a map of slot to whether or not they own it.
+    def validate(self, extra):
+        total_flags = 0
 
-        This method performs these tidyups and returns a new dictionary.
-        In the process, we also ensure that there are no clashes.
-        """
+        for tla, data in self._scoresheet.items():
+            flags = data['flags']
+            self._check_num_flags(tla, flags)
+            total_flags += flags
 
-        zone_tokens = {}
-        slot_bottoms = {}
-        for tla, team_data in self._scoresheet.items():
-            validate_team(tla, team_data)
-            zone_tokens[tla] = team_data['zone_tokens']
-            slot_bottoms[tla] = team_data['slot_bottoms']
+        if extra is not None:
+            unclaimed_flags = extra['unclaimed_flags']
+            self._check_num_flags('unclaimed_flags', unclaimed_flags)
+            total_flags += unclaimed_flags
 
-        zones_owned = tidy_zones(zone_tokens)
-        slots_owned = tidy_slots(slot_bottoms)
+        if total_flags != MAX_FLAGS:
+            msg = "Wrong overall number of flags (expecting {0}, got {1})" \
+                    .format(total_flags, MAX_FLAGS)
+            raise InvalidScoresheetException(msg)
 
-        isolated = {}
-        for tla, team_data in self._scoresheet.items():
-            isolated[tla] = {
-                'robot_moved': team_data['robot_moved'],
-                'slots_owned': slots_owned[tla],
-                'upright_tokens': team_data['upright_tokens'],
-                'zones_owned': zones_owned[tla],
-            }
+    def _check_num_flags(self, who, flags):
+        if not isinstance(flags, int):
+            msg = "{0} has invalid flags value ({1}, expected int)" \
+                    .format(who, repr(flags))
+            raise InvalidScoresheetException(msg)
 
-        return isolated
+        if flags > MAX_FLAGS:
+            msg = "{0} has too many flags ({1}; max: {2})" \
+                    .format(who, flags, MAX_FLAGS)
+            raise InvalidScoresheetException(msg)
+
+        if flags < 0:
+            msg = "{0} has negative flags! ({1})".format(who, flags)
+            raise InvalidScoresheetException(msg)
