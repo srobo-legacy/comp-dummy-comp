@@ -2,41 +2,32 @@
 # Lengths of matches in seconds
 match_slot_lengths:
   pre: 90
-  match: 180
+  match: 120
   post: 30
-  total: 300
+  total: 240
 # Timezone in which the competition runs
 timezone: Europe/London
-delays:
-- delay: 15
-  time: 2014-04-26 13:15:00+01:00
+delays: []
 match_periods:
   league:
-  - start_time: 2014-04-26 13:00:00+01:00
-    end_time: 2014-04-26 17:30:00+01:00
-    max_end_time: 2014-04-26 17:40:00+01:00
-    description: Saturday, 26 April 2014, afternoon
-  - start_time: 2014-04-27 09:30:00+01:00
-    end_time: 2014-04-27 12:15:00+01:00
-    max_end_time: 2014-04-27 12:20:00+01:00
-    description: Sunday, 27 April 2014, morning
-  - start_time: 2014-04-27 13:15:00+01:00
-    end_time: 2014-04-27 15:00:00+01:00
-    description: Sunday, 27 April 2014, afternoon
+  - start_time: 2015-03-28 10:00:00+00:00
+    end_time: 2015-03-28 15:30:00+00:00
+    max_end_time: 2015-03-28 15:40:00+00:00
+    description: League session
   knockout:
-  - start_time: 2014-04-27 15:30:00+01:00
-    end_time: 2014-04-27 17:30:00+01:00
-    description: The Knockouts, Sunday, 27 April 2014, afternoon
+  - start_time: 2015-03-28 16:00:00+00:00
+    end_time: 2015-03-28 17:30:00+00:00
+    description: Knockouts session
 # Scheduled time for the finals tie-breaker, if any
 # This is an absolute value and ignores the delay values
-tiebreaker: 2014-04-27 17:50:00+01:00
+tiebreaker: 2015-03-28 17:50:00+01:00
 knockout:
   # Time delay between rounds (in seconds)
   round_spacing: 300            # 5 minutes
   # Extra delay before the final (for build-up and rotating)
   final_delay: 300              # +5 minutes
   # Number of teams taking part
-  arity: 55
+  arity: 13
   # Options for putting last few rounds in one arena
   single_arena:
     # Number of final rounds to put in a single arena
@@ -44,51 +35,3 @@ knockout:
     # The arena to put them in
     arenas:
     - A
-static_knockout:
-  # 'round' number
-  0:
-    # match number within the round
-    0:
-      arena: A
-      start_time: 2014-04-27 15:30:00+01:00
-      # S<num> means seed number
-      teams:
-      - S3
-      - S5
-      - S8
-      - S10
-    1:
-      arena: A
-      start_time: 2014-04-27 15:35:00+01:00
-      teams:
-      - S4
-      - S6
-      - S7
-      - S9
-  1:
-    0:
-      arena: A
-      start_time: 2014-04-27 15:45:00+01:00
-      # 012 means the 3rd place in match 1 in round 0 of the knockouts
-      teams:
-      - S2
-      - '000'
-      - '002'
-      - '011'
-    1:
-      arena: A
-      start_time: 2014-04-27 15:50:00+01:00
-      teams:
-      - S1
-      - '001'
-      - '010'
-      - '012'
-  2:
-    0:
-      arena: A
-      start_time: 2014-04-27 16:00:00+01:00
-      teams:
-      - '100'
-      - '101'
-      - '110'
-      - '111'
