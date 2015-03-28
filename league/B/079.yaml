@@ -1,0 +1,21 @@
+arena_id: B
+match_number: 79
+other:
+  unclaimed_flags: 0
+teams:
+  GRD:
+    flags: 1
+    present: true
+    zone: 3
+  GRS:
+    flags: 1
+    present: true
+    zone: 2
+  JMS:
+    flags: 2
+    present: true
+    zone: 1
+  PAS:
+    flags: 1
+    present: true
+    zone: 0

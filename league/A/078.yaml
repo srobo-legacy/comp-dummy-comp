@@ -1,0 +1,21 @@
+arena_id: A
+match_number: 78
+other:
+  unclaimed_flags: 1
+teams:
+  BAY:
+    flags: 2
+    present: true
+    zone: 0
+  BRK:
+    flags: 1
+    present: false
+    zone: 1
+  JMS:
+    flags: 1
+    present: true
+    zone: 3
+  KDE:
+    flags: 0
+    present: false
+    zone: 2

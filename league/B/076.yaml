@@ -1,0 +1,21 @@
+arena_id: B
+match_number: 76
+other:
+  unclaimed_flags: 0
+teams:
+  HSO:
+    flags: 2
+    present: true
+    zone: 0
+  HZW:
+    flags: 1
+    present: false
+    zone: 3
+  PAS:
+    flags: 2
+    present: true
+    zone: 2
+  QMC:
+    flags: 0
+    present: false
+    zone: 1

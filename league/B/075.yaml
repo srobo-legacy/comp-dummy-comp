@@ -1,0 +1,21 @@
+arena_id: B
+match_number: 75
+other:
+  unclaimed_flags: 2
+teams:
+  BAY:
+    flags: 1
+    present: true
+    zone: 2
+  BRK:
+    flags: 1
+    present: true
+    zone: 3
+  KDE:
+    flags: 0
+    present: false
+    zone: 1
+  TTN:
+    flags: 1
+    present: false
+    zone: 0

@@ -1,0 +1,21 @@
+arena_id: B
+match_number: 74
+other:
+  unclaimed_flags: 1
+teams:
+  BAY:
+    flags: 0
+    present: true
+    zone: 3
+  PSC:
+    flags: 1
+    present: true
+    zone: 0
+  QMS:
+    flags: 1
+    present: true
+    zone: 2
+  STA:
+    flags: 2
+    present: true
+    zone: 1

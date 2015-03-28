@@ -1,0 +1,21 @@
+arena_id: A
+match_number: 79
+other:
+  unclaimed_flags: 2
+teams:
+  CLY:
+    flags: 1
+    present: true
+    zone: 0
+  CPR:
+    flags: 0
+    present: true
+    zone: 2
+  DSF:
+    flags: 1
+    present: true
+    zone: 1
+  QEH:
+    flags: 1
+    present: true
+    zone: 3
