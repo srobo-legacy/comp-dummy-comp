@@ -1,0 +1,21 @@
+arena_id: A
+match_number: 82
+other:
+  unclaimed_flags: 0
+teams:
+  DSF:
+    flags: 1
+    present: true
+    zone: 2
+  GRD:
+    flags: 2
+    present: true
+    zone: 1
+  PSC:
+    flags: 0
+    present: true
+    zone: 3
+  SCC:
+    flags: 2
+    present: true
+    zone: 0
