@@ -7,7 +7,9 @@ match_slot_lengths:
   total: 240
 # Timezone in which the competition runs
 timezone: Europe/London
-delays: []
+delays:
+- delay: 300
+  time: 2015-03-28 12:50:04+00:00
 match_periods:
   league:
   - start_time: 2015-03-28 10:00:00+00:00
