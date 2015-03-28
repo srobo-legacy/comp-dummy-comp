@@ -10,6 +10,8 @@ timezone: Europe/London
 delays:
 - delay: 300
   time: 2015-03-28 12:50:04+00:00
+- delay: 300
+  time: 2015-03-28 14:30:04+00:00
 match_periods:
   league:
   - start_time: 2015-03-28 10:00:00+00:00
