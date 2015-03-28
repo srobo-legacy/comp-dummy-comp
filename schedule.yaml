@@ -28,17 +28,17 @@ delays:
   time: 2015-03-28 15:22:59+00:00
 match_periods:
   league:
-  - start_time: 2015-03-28 10:00:00+00:00
-    end_time: 2015-03-28 15:30:00+00:00
-    max_end_time: 2015-03-28 15:40:00+00:00
+  - start_time: 2015-03-28 11:00:00+00:00
+    end_time: 2015-03-28 16:30:00+00:00
+    max_end_time: 2015-03-28 16:40:00+00:00
     description: League session
   knockout:
-  - start_time: 2015-03-28 16:00:00+00:00
-    end_time: 2015-03-28 17:30:00+00:00
+  - start_time: 2015-03-28 17:00:00+00:00
+    end_time: 2015-03-28 18:30:00+00:00
     description: Knockouts session
 # Scheduled time for the finals tie-breaker, if any
 # This is an absolute value and ignores the delay values
-tiebreaker: 2015-03-28 17:50:00+01:00
+tiebreaker: 2015-03-28 18:50:00+01:00
 knockout:
   # Time delay between rounds (in seconds)
   round_spacing: 300            # 5 minutes
