@@ -1,0 +1,21 @@
+arena_id: B
+match_number: 22
+other:
+  unclaimed_flags: 1
+teams:
+  HRS:
+    flags: 2
+    present: true
+    zone: 1
+  ICE:
+    flags: 1
+    present: true
+    zone: 3
+  KDE:
+    flags: 1
+    present: true
+    zone: 2
+  STA:
+    flags: 0
+    present: false
+    zone: 0

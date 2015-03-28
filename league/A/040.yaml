@@ -1,0 +1,21 @@
+arena_id: A
+match_number: 40
+other:
+  unclaimed_flags: 0
+teams:
+  DSF:
+    flags: 1
+    present: true
+    zone: 3
+  HSO:
+    flags: 1
+    present: true
+    zone: 0
+  LSS:
+    flags: 1
+    present: true
+    zone: 1
+  SCC:
+    flags: 2
+    present: true
+    zone: 2

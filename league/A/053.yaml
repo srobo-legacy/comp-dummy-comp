@@ -1,0 +1,21 @@
+arena_id: A
+match_number: 53
+other:
+  unclaimed_flags: 1
+teams:
+  ICE:
+    flags: 0
+    present: true
+    zone: 1
+  MAI:
+    flags: 0
+    present: true
+    zone: 0
+  MAI2:
+    flags: 1
+    present: false
+    zone: 2
+  TWG:
+    flags: 3
+    present: true
+    zone: 3

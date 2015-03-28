@@ -1,0 +1,13 @@
+arena_id: B
+match_number: 0
+other:
+  unclaimed_flags: 0
+teams:
+  GRS:
+    flags: 3
+    present: true
+    zone: 0
+  QMC:
+    flags: 2
+    present: true
+    zone: 1

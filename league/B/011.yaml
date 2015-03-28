@@ -1,0 +1,21 @@
+arena_id: B
+match_number: 11
+other:
+  unclaimed_flags: 0
+teams:
+  BAY:
+    flags: 2
+    present: true
+    zone: 1
+  HYP:
+    flags: 2
+    present: true
+    zone: 3
+  LSS:
+    flags: 0
+    present: true
+    zone: 2
+  WYC:
+    flags: 1
+    present: false
+    zone: 0

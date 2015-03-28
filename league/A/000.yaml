@@ -1,0 +1,13 @@
+arena_id: A
+match_number: 0
+other:
+  unclaimed_flags: 4
+teams:
+  CLY:
+    flags: 1
+    present: true
+    zone: 1
+  TTN:
+    flags: 0
+    present: false
+    zone: 2

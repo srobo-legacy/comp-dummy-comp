@@ -1,0 +1,21 @@
+arena_id: A
+match_number: 58
+other:
+  unclaimed_flags: 1
+teams:
+  CPR:
+    flags: 2
+    present: false
+    zone: 1
+  HSO:
+    flags: 0
+    present: true
+    zone: 3
+  KDE:
+    flags: 0
+    present: false
+    zone: 2
+  PSC:
+    flags: 2
+    present: true
+    zone: 0

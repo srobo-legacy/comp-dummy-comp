@@ -1,0 +1,21 @@
+arena_id: B
+match_number: 66
+other:
+  unclaimed_flags: 1
+teams:
+  EMM:
+    flags: 1
+    present: false
+    zone: 1
+  GRS:
+    flags: 1
+    present: false
+    zone: 3
+  MAI2:
+    flags: 1
+    present: true
+    zone: 2
+  NHS:
+    flags: 1
+    present: false
+    zone: 0

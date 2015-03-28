@@ -1,0 +1,21 @@
+arena_id: B
+match_number: 39
+other:
+  unclaimed_flags: 1
+teams:
+  PSC:
+    flags: 0
+    present: false
+    zone: 1
+  RGS:
+    flags: 2
+    present: true
+    zone: 2
+  RWD:
+    flags: 1
+    present: true
+    zone: 0
+  TBG:
+    flags: 1
+    present: true
+    zone: 3

@@ -1,0 +1,21 @@
+arena_id: A
+match_number: 54
+other:
+  unclaimed_flags: 0
+teams:
+  CCR:
+    flags: 1
+    present: false
+    zone: 0
+  HYP:
+    flags: 2
+    present: true
+    zone: 2
+  KHS:
+    flags: 1
+    present: true
+    zone: 3
+  MEA:
+    flags: 1
+    present: true
+    zone: 1

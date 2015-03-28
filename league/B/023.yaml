@@ -1,0 +1,21 @@
+arena_id: B
+match_number: 23
+other:
+  unclaimed_flags: 1
+teams:
+  BGS:
+    flags: 1
+    present: true
+    zone: 2
+  BRN:
+    flags: 1
+    present: true
+    zone: 1
+  KHS:
+    flags: 1
+    present: false
+    zone: 0
+  RWD:
+    flags: 1
+    present: true
+    zone: 3

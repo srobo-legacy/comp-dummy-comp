@@ -1,0 +1,21 @@
+arena_id: B
+match_number: 36
+other:
+  unclaimed_flags: 0
+teams:
+  CLY:
+    flags: 1
+    present: true
+    zone: 1
+  GYG:
+    flags: 3
+    present: true
+    zone: 3
+  HRS:
+    flags: 0
+    present: false
+    zone: 2
+  TWG:
+    flags: 1
+    present: true
+    zone: 0

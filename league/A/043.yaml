@@ -1,0 +1,21 @@
+arena_id: A
+match_number: 43
+other:
+  unclaimed_flags: 0
+teams:
+  KHS:
+    flags: 1
+    present: true
+    zone: 2
+  RED:
+    flags: 2
+    present: true
+    zone: 1
+  RUN:
+    flags: 1
+    present: true
+    zone: 3
+  RWD:
+    flags: 1
+    present: true
+    zone: 0

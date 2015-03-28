@@ -1,0 +1,21 @@
+arena_id: A
+match_number: 27
+other:
+  unclaimed_flags: 2
+teams:
+  GRD:
+    flags: 1
+    present: false
+    zone: 0
+  HRS:
+    flags: 1
+    present: true
+    zone: 1
+  PAG:
+    flags: 0
+    present: false
+    zone: 3
+  TBG:
+    flags: 1
+    present: true
+    zone: 2

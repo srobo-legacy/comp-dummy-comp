@@ -1,0 +1,21 @@
+arena_id: B
+match_number: 35
+other:
+  unclaimed_flags: 1
+teams:
+  BGS:
+    flags: 1
+    present: true
+    zone: 3
+  CRB:
+    flags: 1
+    present: true
+    zone: 0
+  RUN:
+    flags: 1
+    present: true
+    zone: 2
+  WYC:
+    flags: 1
+    present: true
+    zone: 1

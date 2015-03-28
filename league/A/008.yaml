@@ -1,0 +1,21 @@
+arena_id: A
+match_number: 8
+other:
+  unclaimed_flags: 1
+teams:
+  GYG:
+    flags: 1
+    present: true
+    zone: 0
+  JMS:
+    flags: 3
+    present: true
+    zone: 1
+  KDE:
+    flags: 0
+    present: true
+    zone: 3
+  TWG:
+    flags: 0
+    present: true
+    zone: 2
