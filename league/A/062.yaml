@@ -1,7 +1,7 @@
 arena_id: A
 match_number: 62
 other:
-  unclaimed_flags: 3
+  unclaimed_flags: 1
 teams:
   BPV:
     disqualified: false
@@ -20,6 +20,6 @@ teams:
     zone: 1
   SCC:
     disqualified: false
-    flags: 2
+    flags: 4
     present: true
     zone: 0
