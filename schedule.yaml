@@ -25,6 +25,11 @@ match_periods:
 # Scheduled time for the finals tie-breaker, if any
 # This is an absolute value and ignores the delay values
 tiebreaker: 2015-03-28 19:50:00+01:00
+league:
+  # Extra spacing before an arbitrary set of matches
+  extra_spacing:
+    - match_numbers: 1-7
+      duration: 60            # seconds
 knockout:
   # Time delay between rounds (in seconds)
   round_spacing: 300            # 5 minutes
