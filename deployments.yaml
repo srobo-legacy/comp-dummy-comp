@@ -3,5 +3,5 @@
 deployments:
 #  - saffron.studentrobotics.org
 #  - compbox.studentrobotics.org
-  - srobo.mooo.com
+#  - srobo.mooo.com
   - compbox-2015.local
