@@ -32,8 +32,13 @@ match_periods:
 tiebreaker: 2014-04-27 17:50:00+01:00
 league:
   # Extra spacing before an arbitrary set of matches
+  # This value is ignored for matches which occur at the start of a period
+  # since no additional time is needed there. While it might seem nicer
+  # to require the user to change the values in here, delays can push matches
+  # from one period to the next which would make it hard for the user to
+  # keep this up to date.
   extra_spacing:
-  - match_numbers: 1-7
+  - match_numbers: 0-7
     duration: 60              # seconds
 knockout:
   # Time delay between rounds (in seconds)
