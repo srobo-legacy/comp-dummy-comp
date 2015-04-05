@@ -21,7 +21,7 @@ match_periods:
     max_end_time: 2014-04-27 12:20:00+01:00
     description: Sunday, 27 April 2014, morning
   - start_time: 2014-04-27 13:15:00+01:00
-    end_time: 2014-04-27 15:00:00+01:00
+    end_time: 2014-04-27 15:10:00+01:00
     description: Sunday, 27 April 2014, afternoon
   knockout:
   - start_time: 2014-04-27 15:30:00+01:00
