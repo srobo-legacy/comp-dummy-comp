@@ -5,7 +5,7 @@ arenas:
     colour: '#ff0000'
   B:
     display_name: B
-    colour: '#00ff00'
+    # colours are optional
 
 # List of the corners
 corners:
