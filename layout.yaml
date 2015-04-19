@@ -1,5 +1,8 @@
-layout:
-  - a-group:
-    - ABC
-    - DEF
-    - GHI
+teams:
+  - name: a-group
+    display_name: A group
+    description: A group of some sort, it contains a number of teams.
+    teams:
+      - ABC
+      - DEF
+      - GHI
