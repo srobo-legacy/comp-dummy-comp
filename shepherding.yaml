@@ -1,0 +1,5 @@
+shepherds:
+  - teams: ['ABC', 'DEF', 'GHI']
+    colour: 'blue'
+  - teams: ['???']
+    colour: 'green'
