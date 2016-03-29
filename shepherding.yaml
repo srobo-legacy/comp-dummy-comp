@@ -1,5 +1,11 @@
+# Regions within the venue are allocated shepherds who operate only
+# within that region. Each region is assigned a colour for easy
+# identification by the shepherds on their various screens and print-outs.
+
 shepherds:
-  - teams: ['ABC', 'DEF', 'GHI']
-    colour: 'blue'
-  - teams: ['???']
+  - name: Blue
+    colour: '#A9A9F5'
+    teams: ['ABC', 'DEF', 'GHI']
+  - name: 'Green'
     colour: 'green'
+    teams: ['???']
