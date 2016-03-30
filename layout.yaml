@@ -14,7 +14,7 @@
 # short path for someone needing to visit all teams.
 
 teams:
-  - name: a-group:
+  - name: a-group
     display_name: A group
     description: A group of some sort, it contains a number of teams.
     teams:
