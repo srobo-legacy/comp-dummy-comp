@@ -1,5 +1,5 @@
 teams:
-  - name: a-group
+  a-group:
     display_name: A group
     description: A group of some sort, it contains a number of teams.
     teams:

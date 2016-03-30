@@ -8,4 +8,7 @@ shepherds:
     teams: ['ABC', 'DEF', 'GHI']
   - name: 'Green'
     colour: 'green'
+    regions:
+      # a list of named regions from the layout.yaml's 'teams' mapping
+      - a-group
     teams: ['???']
