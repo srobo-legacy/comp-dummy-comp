@@ -1,5 +1,20 @@
+# The layout of the teams at the competition.
+# This information is used for:
+# - helping the shepherds find their way around
+# - setting up the first round of matches so that robot inspections,
+#   which necessarily proceed geographically, occur in the same order to
+#   the first rounds of matches.
+
+# To construct the content for a new year:
+# Starting top left in the layout diagram, work anti-clockwise within
+# each bunch teams (they're in groups of 4 tables together),
+# and either anti-clockwise around bunches of teams or left-to-right
+# if they're in a line.
+# While probably not entirely optimal, this should result in a fairly
+# short path for someone needing to visit all teams.
+
 teams:
-  a-group:
+  - name: a-group:
     display_name: A group
     description: A group of some sort, it contains a number of teams.
     teams:
