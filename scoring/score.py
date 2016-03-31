@@ -4,7 +4,7 @@ from __future__ import absolute_import
 from score_logic import score_team, tidy_slots, tidy_zones, validate_team
 
 class Scorer:
-    def __init__(self, scoresheet):
+    def __init__(self, scoresheet, arena_data_unused = None):
         self._scoresheet = scoresheet
 
     def calculate_scores(self):
