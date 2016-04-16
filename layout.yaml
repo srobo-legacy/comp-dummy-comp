@@ -16,8 +16,63 @@
 teams:
   - name: a-group
     display_name: A group
+    # nothing appears to use the description at the moment
     description: A group of some sort, it contains a number of teams.
     teams:
-      - ABC
-      - DEF
-      - GHI
+      - BAY
+      - BDF
+      - BGS
+      - BPV
+      - BRK
+      - BRN
+      - BWS
+      - CCR
+      - CGS
+      - CLF
+      - CLY
+      - CPR
+      - CRB
+      - DSF
+      - EMM
+      - GRD
+      - GRS
+      - GYG
+      - HRS
+      - HSO
+      - HYP
+      - HZW
+      - ICE
+      - JMS
+      - KDE
+      - KES
+      - KHS
+      - LFG
+
+  - name: b-group
+    display_name: Another group
+    teams:
+      - LSS
+      - MAI
+      - MAI2
+      - MEA
+      - MFG
+      - NHS
+      - PAG
+      - PAS
+      - PSC
+      - QEH
+      - QMC
+      - QMS
+      - RED
+      - RGS
+      - RUN
+      - RWD
+      - SCC
+      - SEN
+      - SGS
+      - STA
+      - SWI
+      - TBG
+      - TTN
+      - TWG
+      - WYC

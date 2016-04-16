@@ -5,11 +5,10 @@
 shepherds:
   - name: Blue
     colour: '#A9A9F5'
-    teams: ['ABC', 'DEF', 'GHI']
-  - name: 'Green'
-    colour: 'green'
-    teams: ['???']
-    # Optional (at least one of 'teams' or 'regions' must be provided)
     regions:
       # a list of named regions from the layout.yaml's 'teams' mapping
       - a-group
+  - name: 'Green'
+    colour: 'green'
+    regions:
+      - b-group
