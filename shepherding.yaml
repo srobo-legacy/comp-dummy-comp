@@ -1,5 +1,5 @@
-# Regions within the venue are allocated shepherds who operate only
-# within that region. Each region is assigned a colour for easy
+# Areas within the venue are allocated shepherds who operate only
+# within that area. Each area is assigned a colour for easy
 # identification by the shepherds on their various screens and print-outs.
 
 shepherds:
