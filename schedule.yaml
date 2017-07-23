@@ -73,7 +73,6 @@ knockout:
     arenas:
     - A
 static_knockout:
-  teams_per_arena: 4
   matches:
     # 'round' number
     0:
