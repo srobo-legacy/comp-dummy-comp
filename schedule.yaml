@@ -27,27 +27,27 @@ staging:
 timezone: Europe/London
 delays:
 - delay: 15
-  time: 2014-04-26 13:15:00+01:00
+  time: 2018-04-14 13:15:00+01:00
 match_periods:
   league:
-  - start_time: 2014-04-26 13:00:00+01:00
-    end_time: 2014-04-26 17:30:00+01:00
-    max_end_time: 2014-04-26 17:40:00+01:00
-    description: Saturday, 26 April 2014, afternoon
-  - start_time: 2014-04-27 09:30:00+01:00
-    end_time: 2014-04-27 12:15:00+01:00
-    max_end_time: 2014-04-27 12:20:00+01:00
-    description: Sunday, 27 April 2014, morning
-  - start_time: 2014-04-27 13:15:00+01:00
-    end_time: 2014-04-27 15:10:00+01:00
-    description: Sunday, 27 April 2014, afternoon
+  - start_time: 2018-04-14 13:00:00+01:00
+    end_time: 2018-04-14 17:30:00+01:00
+    max_end_time: 2018-04-14 17:40:00+01:00
+    description: Saturday, 14 April 2018, afternoon
+  - start_time: 2018-04-15 09:30:00+01:00
+    end_time: 2018-04-15 12:15:00+01:00
+    max_end_time: 2018-04-15 12:20:00+01:00
+    description: Sunday, 15 April 2018, morning
+  - start_time: 2018-04-15 13:15:00+01:00
+    end_time: 2018-04-15 15:10:00+01:00
+    description: Sunday, 15 April 2018, afternoon
   knockout:
-  - start_time: 2014-04-27 15:30:00+01:00
-    end_time: 2014-04-27 17:30:00+01:00
-    description: The Knockouts, Sunday, 27 April 2014, afternoon
+  - start_time: 2018-04-15 15:30:00+01:00
+    end_time: 2018-04-15 17:30:00+01:00
+    description: The Knockouts, Sunday, 15 April 2018, afternoon
 # Scheduled time for the finals tie-breaker, if any
 # This is an absolute value and ignores the delay values
-tiebreaker: 2014-04-27 17:50:00+01:00
+tiebreaker: 2018-04-15 17:50:00+01:00
 league:
   # Extra spacing before an arbitrary set of matches
   # This value is ignored for matches which occur at the start of a period
@@ -79,7 +79,7 @@ static_knockout:
       # match number within the round
       0:
         arena: A
-        start_time: 2014-04-27 15:30:00+01:00
+        start_time: 2018-04-15 15:30:00+01:00
         # S<num> means seed number
         teams:
         - S3
@@ -88,7 +88,7 @@ static_knockout:
         - S10
       1:
         arena: A
-        start_time: 2014-04-27 15:35:00+01:00
+        start_time: 2018-04-15 15:35:00+01:00
         teams:
         - S4
         - S6
@@ -97,7 +97,7 @@ static_knockout:
     1:
       0:
         arena: A
-        start_time: 2014-04-27 15:45:00+01:00
+        start_time: 2018-04-15 15:45:00+01:00
         # 012 means the 3rd place in match 1 in round 0 of the knockouts
         teams:
         - S2
@@ -106,7 +106,7 @@ static_knockout:
         - '011'
       1:
         arena: A
-        start_time: 2014-04-27 15:50:00+01:00
+        start_time: 2018-04-15 15:50:00+01:00
         teams:
         - S1
         - '001'
@@ -115,7 +115,7 @@ static_knockout:
     2:
       0:
         arena: A
-        start_time: 2014-04-27 16:00:00+01:00
+        start_time: 2018-04-15 16:00:00+01:00
         teams:
         - '100'
         - '101'
